@@ -28,7 +28,7 @@ int main() {
                 cout << " Credenciales incorrectas. Intente de nuevo.\n";
             } else {
                 // Tercer intento fallido
-                cout << "\n🔒 No es usuario válido. Ha agotado sus intentos.\n";
+                cout << "\n No es usuario válido. Ha agotado sus intentos.\n";
                 cout << "Cerrando programa...\n";
                 return 1; // Sale del programa con código de error (1)
             }
